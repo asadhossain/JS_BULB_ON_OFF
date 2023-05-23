@@ -1,0 +1,42 @@
+.container2{
+text-align: center;
+}
+.container{
+    text-align: center;
+    }
+.container2 .btn2{
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+.container2 .btn2:hover{
+    color: red;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+.container2 .btn1{
+    color: #fff;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+.container2 .btn1:hover{
+    color: green;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
