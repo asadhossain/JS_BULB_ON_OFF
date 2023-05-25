@@ -1708,3 +1708,166 @@ a,p a {
 .eltdf-mobile-header .eltdf-mobile-menu-opener a {
     color: #4e4e4e
 }
+.eltdf-fullscreen-search-holder {
+    background-image: url(https://musea.qodeinteractive.com/wp-content/uploads/2019/09/search-bg-img.jpg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    padding: 35px;
+    box-sizing: border-box
+}
+@media only screen and (max-width: 1200px) {
+    .eltdf-container-inner,.eltdf-grid,.eltdf-row-grid-section {
+        width:950px
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .eltdf-container-inner,.eltdf-grid,.eltdf-row-grid-section {
+        width:768px
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .eltdf-container-inner,.eltdf-grid,.eltdf-row-grid-section {
+        width:600px
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .eltdf-container-inner,.eltdf-grid,.eltdf-row-grid-section {
+        width:420px
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .eltdf-container-inner,.eltdf-grid,.eltdf-row-grid-section {
+        width:300px
+    }
+}
+@media only screen and (max-width: 768px) {
+    .eltdf-grid-list.eltdf-three-columns .eltdf-masonry-grid-sizer {
+        width:50%
+    }
+
+    .eltdf-grid-list.eltdf-three-columns .eltdf-item-space {
+        width: 50%
+    }
+
+    .eltdf-grid-list.eltdf-three-columns .eltdf-item-space.eltdf-masonry-size-large-width,.eltdf-grid-list.eltdf-three-columns .eltdf-item-space.eltdf-masonry-size-large-width-height {
+        width: 100%
+    }
+}
+@media only screen and (max-width: 680px) {
+    .eltdf-grid-list.eltdf-two-columns .eltdf-masonry-grid-sizer {
+        width:100%
+    }
+
+    .eltdf-grid-list.eltdf-two-columns .eltdf-item-space {
+        width: 100%
+    }
+
+    .eltdf-grid-list.eltdf-three-columns .eltdf-masonry-grid-sizer {
+        width: 100%
+    }
+
+    .eltdf-grid-list.eltdf-three-columns .eltdf-item-space {
+        width: 100%
+    }
+
+    .eltdf-grid-list.eltdf-four-columns .eltdf-masonry-grid-sizer {
+        width: 100%
+    }
+
+    .eltdf-grid-list.eltdf-four-columns .eltdf-item-space {
+        width: 100%
+    }
+
+    .eltdf-grid-list.eltdf-five-columns .eltdf-masonry-grid-sizer {
+        width: 100%
+    }
+
+    .eltdf-grid-list.eltdf-five-columns .eltdf-item-space {
+        width: 100%
+    }
+
+    .eltdf-grid-list.eltdf-six-columns .eltdf-masonry-grid-sizer {
+        width: 100%
+    }
+
+    .eltdf-grid-list.eltdf-six-columns .eltdf-item-space {
+        width: 100%
+    }
+}
+@media only screen and (max-width: 680px) {
+    .eltdf-page-footer .eltdf-column-content:not(:first-child) {
+        margin-top:30px
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .eltdf-page-header {
+        display:none
+    }
+
+    .eltdf-content {
+        margin-top: 0!important
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .eltdf-mobile-header {
+        display:block
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .eltdf-fullscreen-search-holder .eltdf-form-holder-inner {
+        width:80%
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .eltdf-btn.eltdf-btn-huge,.eltdf-btn.eltdf-btn-large {
+        padding:8px 43px 10px
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-two-columns .eltdf-eh-item {
+        width:100%;
+        height: auto;
+        display: inline-block
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-three-columns .eltdf-eh-item {
+        width: 100%;
+        height: auto;
+        display: inline-block
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-four-columns .eltdf-eh-item {
+        width: 100%;
+        height: auto;
+        display: inline-block
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-five-columns .eltdf-eh-item {
+        width: 100%;
+        height: auto;
+        display: inline-block
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-six-columns .eltdf-eh-item {
+        width: 100%;
+        height: auto;
+        display: inline-block
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-one-column-alignment-left .eltdf-eh-item .eltdf-eh-item-content {
+        text-align: left
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-one-column-alignment-right .eltdf-eh-item .eltdf-eh-item-content {
+        text-align: right
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-1024.eltdf-one-column-alignment-center .eltdf-eh-item .eltdf-eh-item-content {
+        text-align: center
+    }
+}
