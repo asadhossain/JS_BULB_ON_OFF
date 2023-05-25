@@ -1871,3 +1871,168 @@ a,p a {
         text-align: center
     }
 }
+@media only screen and (max-width: 480px) {
+    .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-two-columns .eltdf-eh-item {
+        width:100%;
+        height: auto;
+        display: inline-block
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-three-columns .eltdf-eh-item {
+        width: 100%;
+        height: auto;
+        display: inline-block
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-four-columns .eltdf-eh-item {
+        width: 100%;
+        height: auto;
+        display: inline-block
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-five-columns .eltdf-eh-item {
+        width: 100%;
+        height: auto;
+        display: inline-block
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-six-columns .eltdf-eh-item {
+        width: 100%;
+        height: auto;
+        display: inline-block
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-one-column-alignment-left .eltdf-eh-item .eltdf-eh-item-content {
+        text-align: left
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-one-column-alignment-right .eltdf-eh-item .eltdf-eh-item-content {
+        text-align: right
+    }
+
+    .eltdf-elements-holder.eltdf-responsive-mode-480.eltdf-one-column-alignment-center .eltdf-eh-item .eltdf-eh-item-content {
+        text-align: center
+    }
+
+    .eltdf-elements-holder .eltdf-eh-item-content {
+        padding: 0 10px
+    }
+}
+@media only screen and (max-width: 768px) {
+    .eltdf-section-title-holder {
+        padding:0!important
+    }
+
+    .eltdf-section-title-holder.eltdf-st-disable-title-break .eltdf-st-title br {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    h1 {
+        font-size:35px;
+        line-height: 45px
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px
+    }
+
+    h3 {
+        line-height: 40px
+    }
+}
+.vc_row:after,.vc_row:before {
+    content: " ";
+    display: table
+}
+
+.vc_row:after {
+    clear: both
+}
+.vc_column_container {
+    width: 100%
+}
+
+.vc_row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.vc_col-lg-1,.vc_col-lg-10,.vc_col-lg-11,.vc_col-lg-12,.vc_col-lg-2,.vc_col-lg-3,.vc_col-lg-4,.vc_col-lg-5,.vc_col-lg-6,.vc_col-lg-7,.vc_col-lg-8,.vc_col-lg-9,.vc_col-md-1,.vc_col-md-10,.vc_col-md-11,.vc_col-md-12,.vc_col-md-2,.vc_col-md-3,.vc_col-md-4,.vc_col-md-5,.vc_col-md-6,.vc_col-md-7,.vc_col-md-8,.vc_col-md-9,.vc_col-sm-1,.vc_col-sm-10,.vc_col-sm-11,.vc_col-sm-12,.vc_col-sm-2,.vc_col-sm-3,.vc_col-sm-4,.vc_col-sm-5,.vc_col-sm-6,.vc_col-sm-7,.vc_col-sm-8,.vc_col-sm-9,.vc_col-xs-1,.vc_col-xs-10,.vc_col-xs-11,.vc_col-xs-12,.vc_col-xs-2,.vc_col-xs-3,.vc_col-xs-4,.vc_col-xs-5,.vc_col-xs-6,.vc_col-xs-7,.vc_col-xs-8,.vc_col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box
+}
+
+.vc_col-xs-1,.vc_col-xs-10,.vc_col-xs-11,.vc_col-xs-12,.vc_col-xs-2,.vc_col-xs-3,.vc_col-xs-4,.vc_col-xs-5,.vc_col-xs-6,.vc_col-xs-7,.vc_col-xs-8,.vc_col-xs-9 {
+    float: left
+}
+
+.vc_col-xs-12 {
+    width: 100%
+}
+#content .wpb_alert p:last-child,#content .wpb_text_column :last-child,#content .wpb_text_column p:last-child,.wpb_alert p:last-child,.wpb_text_column :last-child,.wpb_text_column p:last-child {
+    margin-bottom: 0
+}
+
+.wpb_button,.wpb_content_element,ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 35px
+}
+
+.wpb-content-wrapper {
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: unset;
+    display: block
+}
+.vc_row.vc_row-flex {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.vc_row.vc_row-flex>.vc_column_container {
+    display: flex
+}
+
+.vc_row.vc_row-flex>.vc_column_container>.vc_column-inner {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    z-index: 1
+}
+.vc_row.vc_row-flex::after,.vc_row.vc_row-flex::before {
+    display: none
+}
+.vc_row.vc_row-o-content-middle>.vc_column_container>.vc_column-inner {
+    justify-content: center
+}
+
+.vc_row.vc_row-o-content-middle:not(.vc_row-o-equal-height)>.vc_column_container {
+    align-items: center
+}
+
+.vc_column-inner::after,.vc_column-inner::before {
+    content: " ";
+    display: table
+}
+
+.vc_column-inner::after {
+    clear: both
+}
+.vc_column_container {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.vc_column_container>.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%
+}
