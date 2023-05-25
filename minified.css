@@ -1603,3 +1603,31 @@ footer .wpcf7-form-control.wpcf7-date,footer .wpcf7-form-control.wpcf7-number,fo
 .eltdf-section-title-holder .eltdf-st-title {
     margin: 0
 }
+.eltdf-section-title-holder .eltdf-st-caption {
+    font-family: "EB Garamond";
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.47em;
+    letter-spacing: 0;
+    color: #c9ab81;
+    display: block;
+    margin-bottom: 11px
+}
+.eltdf-separator-holder {
+    position: relative;
+    height: auto;
+    font-size: 0;
+    line-height: 1em
+}
+
+.eltdf-separator-holder.eltdf-separator-center {
+    text-align: center
+}
+.eltdf-separator {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 1px solid #ebebeb;
+    margin: 10px 0
+}
