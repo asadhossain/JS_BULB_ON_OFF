@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_BULB_ON_OFF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<a href="add_css.html">Add CSS PROPARTY</a>
+<body>
+    <div class="container"> 
+        <img class="myLight" src="Images/light off(1).jpg" alt="">
+        <img class="myLight" src="Images/light off(1).jpg" alt="">
+        <img class="myLight" src="Images/light off(1).jpg" alt=""></div>
+   
+    <div class="container2">
+        <Button class="btn1" onclick="light(1)"> On </Button>
+        <Button class="btn2" onclick="light(0)"> Off </Button> <br></div>
+
+   
+
+
+    <script >
+        function light(value){
+            var x =  value;
+            var i;
+            for(i=0; i<3; i++){
+                if(x==1){
+                    var myLight = document.getElementsByClassName("myLight")[i].src="Images/light on.jpg";
+
+                }else{
+                    var myLight = document.getElementsByClassName("myLight")[i].src="Images/light off(1).jpg";
+
+                }
+            }
+        }
+
+
+
+    </script>
+</body>
+</html>
